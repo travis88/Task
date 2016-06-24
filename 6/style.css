@@ -1,9 +1,71 @@
 body {
     background-color: #f5f5f5;
     margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
     margin-left: 350px;
 }
 
 h1 {
     font-family: Noto Serif, sans-serif;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.data {
+    font-family: Roboto Light, sans-serif;
+    font-size: 13px;
+    color: #888888;
+}
+
+.question {
+    margin-top: -5px;
+    font-family: Noto Serif, sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+.quest_text {
+    font-family: Roboto Light, sans-serif;
+    font-size: 15px;
+    color: #5f5f5f;
+}
+
+.answer {
+    font-family: Noto Serif, sans-serif;
+    font-size: 18px;
+    color: #329d03;
+}
+
+.re {
+    margin-bottom: -10px;
+}
+
+.answer_text {
+    font-family: Roboto Light, sans-serif;
+    font-size: 15px;
+    color: #5f5f5f;
+    background: url("images/fomfactor.png");
+    width: 745px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    padding-left: 47px;
+    padding-right: 50px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.15);
+    margin-bottom: 35px;
+}
+
+.forma {
+    width: 824px;
+    height: 375px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    padding-left: 27px;
+}
+
+.myquestion {
+    font-family: Noto Serif, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    padding-top: 40px;
 }
