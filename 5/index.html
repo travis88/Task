@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Информация про город</title>
+</head>
+<body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+    $(function () {
+//        var city = prompt("Введите название города: ");
+//        var request = encodeURIComponent(city);
+//        window.open("https://www.google.ru/maps/place/" + request);
+        var data = { city: "rome", date: "20120318" };
+
+        $.get( "http://example.com/getForecast.php", data );
+    });
+</script>
+
+</body>
+</html>
