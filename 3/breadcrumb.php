@@ -11,11 +11,25 @@
 
 <?php
 //$j = $_GET['number'];
+//$content = file_get_contents("index.html");
+//$element = strip_tags($elements);
+//echo $element;
+//echo $content;
+//$arr = explode(" ", $content);
+//foreach ($arr as $item) {
+//    echo $item;
+//}
+
+
 $content = file_get_contents("index.html");
+$element = strip_tags($content);
+$elements = explode(" ", $element);
+//foreach ($elements as $item) {
+//    echo $item;
+//}
 
-$arr = explode(" ", $content);
-for ($i = 0; $i < count($arr); $i++) {
-    var_dump(strip_tags($arr[$i]));
+for ($i = 0; $i < count($elements); $i++) {
+    if (strcasecmp($elements[$i], "") != 0 or strcasecmp($elements[$i], "") == 1) {
+        echo $i . ": " . $elements[$i] . "<br>";
+    }
 }
-
-//var_dump(strip_tags($arr));

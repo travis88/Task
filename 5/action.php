@@ -54,8 +54,6 @@ foreach ($collection2 as $item2) {
         echo "Погода ".$value2."<br>";
     }
 }
-//echo $citytranslit;
-
 
 function rus2translit($string) {
     $converter = array(
